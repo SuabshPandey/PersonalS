@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Subash Pandey</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap path -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+  <!-- Font Awesome Path -->
+  <script src="https://kit.fontawesome.com/f472d848aa.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="top-container">
+    <h1>I'm Subash.</h1>
+    <h2>a programmer.</h2>
+    <img class="header-img" src="images/copding-explained.jpg" alt="coding-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="images/cropped.png" alt="Subash'profile">
+      <h3>Hello there!</h3>
+      <p class="intro">I am a person who has always enthusiastic about learning new technology.</p>
+    </div>
+    <hr class="hr-line">
+    <div class="skills">
+      <h3>My Skills.</h3>
+      <div class="skill-row">
+        <img class="skill-logo-left" src="images/html.jpeg" alt="Html,Css,Js Logo">
+        <h3>HTML,CSS,JS</h3>
+        <p>
+          I have been getting acquainted with HTML5 CSS3 and Vanilla JS for the last 2 years. So now at this stage I can
+          use these things well.
+          Here are some things I liked to do as a challenge that helped me learn more about these things.
+        <ul>
+          <li><a href="https://suabshpandey.github.io/Dicee/" target="_blank">Dicee Challange</a></li>
+          <li><a
+              href="https://suabshpandey.github.io/Project-Drum-Kit/?fbclid=IwAR0irCVLuqOfA8GEz0lcEAeLgNqMzrMXEOnXLL81pPkGn0Cc-gGaFO48Y6Q"
+              target="_blank">Drum_Kit Challenge</a></li>
+          <li><a href="http://subashpandey867.com.np" target="_blank">Personal Site</a></li>
+        </ul>
+
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-logo-right" src="images/bootstrap-logo.jpg" alt="Bootstrap">
+        <h3>Bootstrap</h3>
+        <p>Bootsrap is a front-end framework which helps to make responsive websites.It took me 10-15 days to learn this
+          framework which made me easier to give resposiveness to website.
+          This is quite handy to build responsive website.I have learned bootstrap by reference to Udemy W3 Schools and
+          SoloLearn.Here is the things that I liked to do as a challange to learn more about this.
+
+
+        <ul>
+          <li><a href="https://suabshpandey.github.io/Bootstrap_site/" target="_blank">Tindog</a></li>
+        </ul>
+        </p>
+      </div>
+
+      <div class="skill-row">
+        <img class="skill-logo-left" src="images/jquery-logo.png" alt="jQuery_Logo">
+        <h3>jQuery</h3>
+        <p>jQuery is an amazing library of JavaScript and is quite handy as well.This library mainly helps to shortened
+          the JavaScript DOM code, add animation to the website and many more.
+          It took me almost one week to get acquainted with this library.
+        </p>
+      </div>
+
+      <span id="dots">
+        <hr class="hr-line"></span>
+      <span id="more">
+
+
+        <div class="skill-row">
+          <img class="skill-logo-right" src="images/react.png" alt="React Js">
+          <h3>Web Development with React JS (*Learning Phase)</h3>
+          <p>As I am a technophile ,so currently I am gaining my skills by learning Front-end Development with
+            React JS. After completing this I would head over to Backend Develpment and Mobile Application
+            Develpment with Javascript Frameworks</p>
+        </div>
+
+        <div class="skill-row">
+          <img class="skill-logo-left" src="images/python-django.png" alt="Python_Logo">
+          <h3>Python & Django</h3>
+          <p>Besides JavaScript series I am also acquainted to Python & Django as well.Python is my second most
+            favourite programming language.
+            Using these technology I have completed a project called <em><b>"NepMeds"</b></em> which is online pharmacy.
+            This project was completed with
+            Deepson Shrestha and Amit Yadav which is stored locally.
+          </p>
+        </div>
+    </div>
+    <button id="myBtn" class="btn">Show More +</button>
+    </span>
+    <script>
+      document.querySelector("button").addEventListener("click", readMore);
+  
+      function readMore() {
+        var dots = document.querySelector("#dots");
+        var moreText = document.querySelector("#more");
+        var btnText = document.querySelector("#myBtn");
+  
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          moreText.style.display = "none";
+          btnText.innerHTML = "Show More +";
+        }
+        else {
+          dots.style.display = "none";
+          // alert("I got clicked");
+          btnText.innerHTML = "Show Less -";
+          moreText.style.display = "inline";
+  
+  
+  
+        }
+      }
+    </script>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love to code as much as I do</h3>
+      <p>If you love to code as much as I do?We together can build a awesome website.</p>
+      <a class="btn" href="mailto:itsmesubashpandey867@gmail.com">EMAIL ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a href="https://www.facebook.com/subash.pandey.58118" target="_blank"><i
+        class="social-icon fab fa-facebook fa-2x icon"></i></a>
+    <a href="https://github.com/SuabshPandey" target="_blank"><i class="social-icon fab fa-github fa-2x icon"></i></a>
+    <a href="https://www.linkedin.com/in/subash-pandey-ab429a1a1/" target="_blank"><i
+        class="social-icon fab fa-linkedin fa-2x icon"></i></a>
+    <a href="https://www.instagram.com/__subash_rock1__/" target="_blank"><i
+        class="social-icon fab fa-instagram fa-2x icon"></i></a>
+    <p class="footer-para">©2020 Subash Pandey @ NepTech</p>
+  </div>
+
+</body>
+
+</html>
